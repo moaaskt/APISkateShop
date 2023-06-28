@@ -193,6 +193,12 @@ nav > ul > li:hover > a {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
+  
+}
+
+.logo img {
+width: 30%;
+
 }
 
 .contact {
