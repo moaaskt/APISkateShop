@@ -4,11 +4,68 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../css/cadastro.css">
   <title>Cadastro de Skate</title>
-  <style>
-    /* Adicione estilos CSS aqui */
-  </style>
 </head>
 <body>
+  <nav>
+    
+    <ul class="container">
+      <li><a href="/index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+        <div class="mega-menu">
+          <div class="container">
+            <div class="item">
+              <h3>Páginas</h3>
+              <ul>
+                <li><a href="/Assets/pages/cadastro.html">Cadastrar Peças</a></li>
+              </ul>
+            </div>
+            <!-- /.item -->
+            <div class="item">
+              <h3>Contact</h3>
+              <ul>
+                <li><a href="#">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.mega-menu -->
+      </li>
+      <!-- /.dropdown -->
+
+      <!-- <li class="dropdown">
+        <a href="#">Images <i class="fa fa-angle-down"></i> </a>
+        <div class="mega-menu">
+          <div class="container">
+            <div class="item">
+              <h3>Image One</h3>
+              <img src="http://placehold.it/250x200" />
+
+            </div> -->
+            <!-- /.item -->
+
+            <!-- <div class="item">
+              <h3>Image One</h3>
+              <img src="http://placehold.it/250x200" />
+            </div> -->
+            <!-- /.item -->
+
+          
+            </div>
+            <!-- /.item -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .mega-menu-->
+      </li>
+      <!-- .dropdown -->
+      <!-- <li><a href="#">About</a></li> -->
+      <li><a href="#">Conatct</a></li>
+    </ul>
+    <!-- .container -->
+  </nav>
+
   <h1>Cadastro de Skate</h1>
 
   <form id="skate-form" enctype="multipart/form-data">
@@ -36,9 +93,41 @@
     <label for="imagem">Link da Imagem:</label>
     <input type="text" id="imagem" name="imagem" required>
     
-  
+  <br>
     <button type="submit">Cadastrar</button>
   </form>
+  
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2 class="logo"></h2>
+          <p>
+            API feita para treinar minhas habilidades.
+          </p>
+          <div class="contact">
+            <span><i class="fas fa-phone"></i> (48) 99179-2406</span>
+            <span><i class="fas fa-envelope"></i> moacirneto59@gmail.com</span>
+          </div>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="/index.html">Página Inicial</a></li>
+            <li><a href="Assets/pages/cadastro.html">Cadastrar Peças</a></li>
+          </ul>
+        </div>
+      <div class="footer-bottom">
+        &copy; 2023 Moaaskt . Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
   
 
   <script src="../JS/cadastro.js"></script>

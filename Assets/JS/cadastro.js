@@ -1,4 +1,4 @@
-const form = document.getElementById('cadastroForm');
+const form = document.getElementById('skate-form');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
