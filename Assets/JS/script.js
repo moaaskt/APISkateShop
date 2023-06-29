@@ -25,6 +25,10 @@ function getSkates() {
       console.error('Erro ao obter skates:', error);
     });
 }
-
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 3000 // Tempo em milissegundos entre cada transição de slide (5 segundos neste exemplo)
+  });
+});
 // Chamada inicial para obter os skates quando a página é carregada
 getSkates();
