@@ -53,8 +53,8 @@ h2 {
 }
 
 .produto-imagem {
-  width: 100%; /* Define o tamanho desejado para a largura */
-  height: auto; /* A altura será ajustada proporcionalmente */
+  width: 100%; 
+  height: auto; 
 }
 .navbox {
   background-color: #333;
@@ -248,7 +248,7 @@ width: 30%;
   color: #ccc;
 }
 
-/* Estilos específicos para ícones */
+/* Estilos ícones */
 .fa {
   margin-right: 5px;
 }
