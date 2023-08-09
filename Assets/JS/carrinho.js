@@ -9,7 +9,7 @@ function mostrarCarrinho() {
     carrinho.forEach((skate, index) => {
       const linha = tabelaCarrinho.insertRow();
   
-      // Adicionar as células com as informações do skate
+      // Adicionar  as informações do skate
       const colunaShape = linha.insertCell();
       colunaShape.textContent = skate.shape;
   
