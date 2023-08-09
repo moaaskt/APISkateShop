@@ -94,10 +94,10 @@ function buySkate(skateData) {
 
 $(document).ready(function() {
   $('.carousel').carousel({
-    interval: 3000 // Tempo em milissegundos entre cada transição de slide (5 segundos neste exemplo)
+    interval: 3000 
   });
 });
-// Chamada inicial para obter os skates quando a página é carregada
+//  obtendo os skates quando a página é carregada
 getSkates();
 
 
